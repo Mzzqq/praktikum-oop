@@ -15,5 +15,12 @@ public class Nilai {
         return values;
     }
 
-
+    void CetakNilai() {
+        System.out.printf("NIM\t\t\t: %s\n" +
+                "Nama\t\t\t: %s\n" +
+                "Nilai Absen[10%]\t\t\t: %f\n" +
+                "Nilai Tugas[20%]\t\t\t: %f\n" +
+                "Nilai UTS[30%]\t\t\t: %f\n" +
+                "Nilai UAS[40%]\t\t\t: %f\n");
+    }
 }
