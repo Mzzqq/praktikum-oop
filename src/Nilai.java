@@ -14,4 +14,6 @@ public class Nilai {
                         (this.nilaiUas * 0.4));
         return values;
     }
+
+
 }
