@@ -1,5 +1,13 @@
-public class Matematika {
+interface MatematikaInterface {
+    int pertambahan(int a, int b);
+    int pengurangan(int a, int b);
+    int perkalian(int a, int b);
+    int pembagian(int a, int b);
+}
+
+public class Matematika implements MatematikaInterface{
     int a, b;
+
     public int pertambahan(int a, int b) {
         this.a = a;
         this.b = b;
@@ -21,10 +29,10 @@ public class Matematika {
         return a * b;
     }
 
-    public double pembagian(int a, int b) {
+    public int pembagian(int a, int b) {
         this.a = a;
         this.b = b;
 
-        return (double) a / b;
+        return a / b;
     }
 }
