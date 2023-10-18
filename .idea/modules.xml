@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PraktikumOOP.iml" filepath="$PROJECT_DIR$/PraktikumOOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/praktikum-2/praktikum-2.iml" filepath="$PROJECT_DIR$/praktikum-2/praktikum-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/praktikum-oop.iml" filepath="$PROJECT_DIR$/praktikum-oop.iml" />
     </modules>
   </component>
 </project>
