@@ -1,3 +1,5 @@
+package praktikum_dua;
+
 interface MatematikaInterface {
     int pertambahan(int a, int b);
     int pengurangan(int a, int b);
@@ -6,33 +8,25 @@ interface MatematikaInterface {
 }
 
 public class Matematika implements MatematikaInterface{
-    int a, b;
+    int hasil;
 
     public int pertambahan(int a, int b) {
-        this.a = a;
-        this.b = b;
-
-        return a + b;
+        return hasil = a + b;
     }
 
     public int pengurangan(int a, int b) {
-        this.a = a;
-        this.b = b;
-
-        return a - b;
+        return hasil = a - b;
     }
 
     public int perkalian(int a, int b) {
-        this.a = a;
-        this.b = b;
-
-        return a * b;
+        return hasil = a * b;
     }
 
     public int pembagian(int a, int b) {
-        this.a = a;
-        this.b = b;
+        return hasil = a / b;
+    }
 
-        return a / b;
+    int getValue() {
+        return hasil;
     }
 }

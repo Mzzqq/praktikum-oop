@@ -1,3 +1,5 @@
+package praktikum_dua;
+
 public class MatematikaBeraksi {
     public static void main(String[] args) {
         Matematika mtk = new Matematika();

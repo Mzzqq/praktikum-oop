@@ -1,3 +1,5 @@
+package praktikum_dua;
+
 interface BingoInterface {
     void lyrical();
 }
@@ -8,7 +10,7 @@ class BingoSong implements BingoInterface{
         this.bingo = bingo;
     }
 
-    @Override
+    //@Override
     public void lyrical() {
 
         for (int i = 0; i < 6; i++) {
@@ -24,3 +26,6 @@ class BingoSong implements BingoInterface{
         }
     }
 }
+
+
+

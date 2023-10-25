@@ -1,3 +1,5 @@
+package praktikum_dua;
+
 public class BingoSongMain {
     public static void main(String[] args) {
         String[] lyrics = {
