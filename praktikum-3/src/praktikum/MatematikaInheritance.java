@@ -1,5 +1,7 @@
 package praktikum;
 
+import praktikum_dua.Matematika;
+
 public class MatematikaInheritance {
     public static void main(String[] args) {
         Matematika mtk = new Matematika();
