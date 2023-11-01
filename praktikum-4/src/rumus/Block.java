@@ -10,11 +10,11 @@ public class Block extends Geometry{
     }
 
     @Override
-    protected double volume(){
+    protected int volume(){
         return panjang * lebar * tinggi;
     }
 
-    protected double surfaceArea(){
+    protected int surfaceArea(){
         return 2 * ((panjang * lebar) + (lebar * tinggi) + (panjang * tinggi));
     }
 

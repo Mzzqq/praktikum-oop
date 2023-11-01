@@ -8,11 +8,11 @@ public class Cube extends Geometry{
     }
 
     @Override
-    protected double volume(){
-        return Math.pow(sisi, 3);
+    protected int volume(){
+        return sisi * sisi * sisi;
     }
 
-    protected double surfaceArea(){
-        return 6 * Math.pow(sisi, 2);
+    protected int surfaceArea(){
+        return 6 * (sisi * sisi);
     }
 }
