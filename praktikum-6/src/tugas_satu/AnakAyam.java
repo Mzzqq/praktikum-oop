@@ -7,5 +7,9 @@ public class AnakAyam {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Masukkan input angka anak ayam: ");
         int counter = scanner.nextInt();
+
+        for (int i = 0; i <= counter; i++){
+            System.out.println("Anak Ayam Turun " + i);
+        }
     }
 }
