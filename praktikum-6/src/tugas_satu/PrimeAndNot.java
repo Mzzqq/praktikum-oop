@@ -1,7 +1,5 @@
 package tugas_satu;
 
-import java.util.Scanner;
-
 public class PrimeAndNot {
     public static void main(String[] args) {
         System.out.println("Deret bilangan prima dan bukan dari 0 - 20");
