@@ -40,4 +40,15 @@ public class TokoSerbaAda {
         }
         return -1;
     }
+
+    private static int getTotalBayar(int itemBarang) {
+        int totalBayar = 0;
+        for (int i = 0; i < itemBarang; i++) {
+            int index = cariIndeksKode(kodeBarang[i]);
+            if (index != -1) {
+                totalBayar += harga[index] * jumlahBeli[i];
+            }
+        }
+        return totalBayar;
+    }
 }
