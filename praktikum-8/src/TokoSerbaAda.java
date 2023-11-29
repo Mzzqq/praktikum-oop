@@ -13,23 +13,28 @@ public class TokoSerbaAda {
         // int jumlahBayar = 0;
 
         // Input item barang
+        System.out.println("TOKO SERBA ADA");
+        System.out.println("**************");
         System.out.print("Masukkan item barang: ");
         int itemBarang = scanner.nextInt();
 
         jumlahBeli = new int[itemBarang]; // Initialize jumlahBeli
-
         for (int i = 0; i < itemBarang; i++) {
             // Input kode barang
-            System.out.print("Data ke-" + (i + 1) + ":\n");
-            System.out.print("Masukkan kode: ");
+            System.out.print("Data ke " + (i + 1) + ":\n");
+            System.out.print("Masukkan kode \t\t\t: ");
             String kode = scanner.next();
 
             // Input jumlah beli
-            System.out.print("Masukkan jumlah beli: ");
+            System.out.print("Masukkan jumlah beli \t: ");
             jumlahBeli[i] = scanner.nextInt();
         }
 
+        System.out.println("\n\n");
+        System.out.println("TOKO SERBA ADA");
+        System.out.println("*************************");
         System.out.println("No\tKode Barang\t\tNama Barang\t\tHarga\tJumlah Beli\t\tJumlah Bayar");
+        System.out.println("================================================================================");
         int totalBayar = 0;
         for (int i = 0; i < itemBarang; i++){
             int index = cariIndeksKode(kodeBarang[i]);
@@ -41,7 +46,9 @@ public class TokoSerbaAda {
                 System.out.println("Kode barang tidak valid.");
             }
         }
-        System.out.println("Total Bayar: " + totalBayar);
+        System.out.println("================================================================================");
+        System.out.println("Total Bayar \t\t\t\t\t\t\t\t\t\t" + totalBayar);
+        System.out.println("================================================================================");
     }
 
     private static int cariIndeksKode(String kode) {
