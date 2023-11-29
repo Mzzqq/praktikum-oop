@@ -29,6 +29,18 @@ public class TokoSerbaAda {
             jumlahBeli[i] = scanner.nextInt();
         }
 
+        System.out.println("No\tKode Barang\t\tNama Barang\t\tHarga\tJumlah Beli\t\tJumlah Bayar");
+        int totalBayar = 0;
+        for (int i = 0; i < itemBarang; i++){
+            int index = cariIndeksKode(kodeBarang[i]);
+            if (index != -1) {
+                int jumlahBayar = harga[index] * jumlahBeli[i];
+                totalBayar += jumlahBayar; // Hitung jumlah bayar
+                System.out.println((i + 1) + "\t" + kodeBarang[i] + "\t\t\t" + namaBarang[index] + "\t\t\t" + harga[index] + "\t" + jumlahBeli[i] + "\t\t\t\t" + jumlahBayar);
+            } else {
+                System.out.println("Kode barang tidak valid.");
+            }
+        }
 
     }
 
