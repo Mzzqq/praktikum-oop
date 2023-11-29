@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/array-learn/array-learn.iml" filepath="$PROJECT_DIR$/array-learn/array-learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/constructorTest/constructorTest.iml" filepath="$PROJECT_DIR$/constructorTest/constructorTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/experimental/experimental.iml" filepath="$PROJECT_DIR$/experimental/experimental.iml" />
+      <module fileurl="file://$PROJECT_DIR$/input-and-branching/input-and-branching.iml" filepath="$PROJECT_DIR$/input-and-branching/input-and-branching.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interfaceTest/interfaceTest.iml" filepath="$PROJECT_DIR$/interfaceTest/interfaceTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kelasku/kelasku.iml" filepath="$PROJECT_DIR$/kelasku/kelasku.iml" />
+      <module fileurl="file://$PROJECT_DIR$/praktikum-2/loopTest/loopTest.iml" filepath="$PROJECT_DIR$/praktikum-2/loopTest/loopTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/looping/looping.iml" filepath="$PROJECT_DIR$/looping/looping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/polymoprhTest/polymoprhTest.iml" filepath="$PROJECT_DIR$/polymoprhTest/polymoprhTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/praktikum-2/praktikum-2.iml" filepath="$PROJECT_DIR$/praktikum-2/praktikum-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/praktikum-3/praktikum-3.iml" filepath="$PROJECT_DIR$/praktikum-3/praktikum-3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/praktikum-4/praktikum-4.iml" filepath="$PROJECT_DIR$/praktikum-4/praktikum-4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/praktikum-5/praktikum-5.iml" filepath="$PROJECT_DIR$/praktikum-5/praktikum-5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/praktikum-7/praktikum-7.iml" filepath="$PROJECT_DIR$/praktikum-7/praktikum-7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/praktikum-8/praktikum-8.iml" filepath="$PROJECT_DIR$/praktikum-8/praktikum-8.iml" />
       <module fileurl="file://$PROJECT_DIR$/praktikum-oop.iml" filepath="$PROJECT_DIR$/praktikum-oop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uts/uts.iml" filepath="$PROJECT_DIR$/uts/uts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uts-dua/uts-dua.iml" filepath="$PROJECT_DIR$/uts-dua/uts-dua.iml" />
     </modules>
   </component>
 </project>
