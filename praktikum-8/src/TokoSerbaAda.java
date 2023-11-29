@@ -41,7 +41,7 @@ public class TokoSerbaAda {
                 System.out.println("Kode barang tidak valid.");
             }
         }
-
+        System.out.println("Total Bayar: " + totalBayar);
     }
 
     private static int cariIndeksKode(String kode) {
