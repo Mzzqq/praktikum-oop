@@ -7,4 +7,8 @@ public class Barang {
         this.kode = kode;
         this.jumlahBeli = jumlahBeli;
     }
+
+    public String getKode(){
+        return kode;
+    }
 }
