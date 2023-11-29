@@ -28,5 +28,16 @@ public class TokoSerbaAda {
             System.out.print("Masukkan jumlah beli: ");
             jumlahBeli[i] = scanner.nextInt();
         }
+
+
+    }
+
+    private static int cariIndeksKode(String kode) {
+        for (int i = 0; i < kodeBarang.length; i++) {
+            if (kodeBarang[i].equals(kode)) {
+                return i;
+            }
+        }
+        return -1;
     }
 }
