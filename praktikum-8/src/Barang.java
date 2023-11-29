@@ -15,4 +15,8 @@ public class Barang {
     public int getJumlahBeli(){
         return jumlahBeli;
     }
+
+    public int getHarga(){
+        return harga;
+    }
 }
