@@ -11,4 +11,8 @@ public class Barang {
     public String getKode(){
         return kode;
     }
+
+    public int getJumlahBeli(){
+        return jumlahBeli;
+    }
 }
